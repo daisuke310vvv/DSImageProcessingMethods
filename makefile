@@ -22,4 +22,4 @@
 #
 
 main: DSIPMethods.c
-	gcc -I./lib/ -L./lib/ DSIPMethods.c -o DSIPMethods -lDSIPMethods
+	gcc -I./lib/ -L./lib/ DSIPMethods.c -o DSIPMethods -lDSIPMethods `pkg-config --cflags opencv` `pkg-config --libs opencv`
