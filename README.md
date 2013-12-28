@@ -24,3 +24,11 @@ How to Start
   
 then, you can use it.  
 
+How to Use  
+========================
+`./DSIPMethods method-name input-image output-image-name`  
+
+Methods  
+========================
+* getGrayScaleImage  
+  return gray scale image file(.jpg) in your current directory.  
